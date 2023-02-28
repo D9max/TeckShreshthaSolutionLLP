@@ -1,0 +1,73 @@
+OWASP ZAP is an open source proxy which includes free scanning capability. 
+In this episode, we will discuss the active scanning functionality and review the scan results.
+
+   	After downloading and installing, launch OWASP ZAP by clicking on the icon of ZAP.
+
+To run the first test, just enter the URL in the field "URL to attack" (e.g. http://www.testsite.com) and
+ click on the button "Attack". This is a basic scan and it gives security vulnerabilities.
+
+
+Note: Never run this tool on any public websites
+ as it is illegal under the law unless you have proper permission to do so.
+
+
+Results:
+On successful running of a scan, ZAP gives the list of application security issues.
+ All issues you can find under the tab "Alerts".
+
+
+Reporting of application vulnerabilities
+
+After the successful running of the tool, you can download reports in formats such as 
+HTML, XML, and Markdown by navigating ZAP tool -> Report. Also, 
+you can also export messages, responses, and selected URLs to file in ASCII format
+ by selecting rows under the History tab for future reference.
+
+
+Configuring Proxies
+You need to configure the web browser to use ZAP as a proxy. 
+You can see these local proxy details by navigating ZAP Tool -> Tools -> Options -> Local Proxy:
+
+
+You need to configure your web browser by navigating:
+
+Firefox Menu ->Options 
+-> Settings (Under Network Proxy) 
+-> Manual Proxy Configuration. Set HTTP Proxy as "localhost" and Port as "8080".
+
+You can check by browsing any URL and check whether the ZAP tool 
+captures traffic by intercepting or not.
+
+Authentication:
+Some websites need usernames and passwords for vulnerability scanning.
+ To do authentication, intercept the traffic by configuring the proxies mentioned above.
+ Right-click on the login request, select "Flag as Context" and click "Form-based Auth Login Request".
+
+Conclusion
+OWASP ZAP is an awesome tool for beginners who wants to start a security assessment of web applications.
+ The big community is working to enhance the features of this tool.
+ I will definitely recommend you use this tool in your cybersecurity assignment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

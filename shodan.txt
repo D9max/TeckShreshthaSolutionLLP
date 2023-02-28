@@ -1,0 +1,41 @@
+What is Shodan?
+Shodan is a search engine but very different from regular search engines like Google, Yahoo, Bing, etc., 
+which search the web for standard websites.
+ Shodan was explicitly designed and developed to pull information about IoT devices connected to the internet.
+ It ranks critical information about various devices that the regular browser user would never see.
+ Some of the things that you can find on the internet with Shodan include:
+
+Cameras (e.g CCTVs,Webcams)
+Routers and Devices
+Baby monitors
+Maritime satellites
+Prison payphones
+Traffic light systems
+Water treatment facilities
+Nuclear power plants, and much more
+
+Don't freak out from the above examples and run hiding in a bunker.
+ Yes, Shodan can provide you with publicly accessible information about a router, a server, or a nuclear plant, but that doesn't
+ mean anybody with an active internet connection will now have full access to the device or system. However, there is also a catch! 
+This publicly accessible information can also be very critical. For example, Hackers will indeed have access to these devices
+ if you have a webcam or router connected to the internet and still use the default login username and password. That is why security 
+measures like strong password, two-factor authentication, the use of Firewalls, and strict security protocols is highly recommended. 
+You will understand this better when we start looking at some practical examples with Shodan.
+
+
+How does Shodan Work?
+To understand how Shodan works, let's first look at how regular search engines like Google and Yahoo operate.
+ Google uses automated programs called crawlers that crawl the world wide web looking for any new or updated pages.
+ It captures the page URLs (page addresses) and stores them in a list where it will look up for them later when a user makes a search request.
+
+Shodan works similarly to Google. It crawls the internet using a global network of computers and servers requesting connections to every IP address
+ that appears on the internet. It indexes all the pieces of information received from these IPs. Of course, not all IP addresses will return relevant information.
+ Still, most of them respond with banners that contain metadata information about the devices using these IPs to connect to the internet.
+
+Some of the information includes:
+
+Device name: refers to the device's name (it's set as Hostname)—for example, Cisco router or Samsung Galaxy A32.
+IP address: This is a unique code used to identify a device on the internet. For example, 206.189.189.202
+Location: The country, city, or any other geographical identifier where this device is located.
+Organization: This refers to who owns the "IP Space."
+Ports:

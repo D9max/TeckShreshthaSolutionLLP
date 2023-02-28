@@ -1,0 +1,44 @@
+What Is Google Dorking?
+
+Google Dorking or Google hacking refers to using Google search techniques to hack into vulnerable sites 
+or search for information that is not available in public search results.
+
+The Google search engine works similarly to an interpreter using search strings and operators.
+ For example, you can say that Google reacts sensitively to certain search strings when applied with specific operators.
+ However, you will learn more about it later in the tutorial on ‘what is Google Dorking’.
+
+Search Operators and Commands
+This section will look at some details about various operators and commands you can apply to 
+hack into sensitive data available on the internet using the Google search engine.
+
+Operators and commands:
+
+Specific Site: This operator is used to search for a specific site.
+Example: site: name of the website
+---------------------------------------------------------------------------------------------------------------
+Specific URL: This operator is used to search for a specific keyword in the URL of the website.
+
+Example: inurl: specified keyword
+---------------------------------------------------------------------------------------------------------------
+
+Specific text in the title: This operator is used to search for data in reference to its title keyword.
+
+Example: intitle: required keyword
+---------------------------------------------------------------------------------------------------------------
+
+Specific text: This operator searches for specific content on the internet.
+Example: intext: required keyword
+
+Specific filetype: This operator searches for a specific file type available on the internet.
+Example: filetype: pdf,doc, log, etc.
+---------------------------------------------------------------------------------------------------------------
+Specific keyword: This operator is used to search for specific data on the internet. 
+Example: “search keyword”
+----------------------------------------------------------------------------------------------------------------
+Excluding Specific keyword: This operator is used to search for data, excluding the specified content mentioned with the operator.
+Example: cyber security -site: wikipedia.org
+----------------------------------------------------------------------------------------------------------------
+OR & AND operator: These operators are combined with other search strings to give out more efficient search results.
+Example: “river” AND “cap”
+Example: “river” OR “town”
+-------------------------------------------------------------------------------------------------------------------
